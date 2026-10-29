@@ -32,13 +32,15 @@
     <ul>
       <li><strong>Basic profile information:</strong> the account ID, display name, username and profile picture. We use these only to show which account is connected.</li>
       <li><strong>Access tokens:</strong> keys that let the app upload videos to that account, within the permissions that were approved.</li>
+      <li><strong>Statistics about our own videos and channel:</strong> aggregated numbers such as views, watch time, average percentage viewed, audience retention, likes, comments, shares and subscribers gained or lost (for YouTube through the YouTube Analytics API). These numbers are totals; they never identify individual viewers.</li>
     </ul>
-    <p>The app does not read your messages, followers, contacts, viewing history or any other content.</p>
+    <p>The app does not read messages, the names or profiles of followers or viewers, contacts, viewing history or any other content.</p>
 
     <h2>How we use it</h2>
     <ul>
       <li>To upload and schedule In One Sketch videos to the connected account.</li>
       <li>To show the connected account in the app, so the right video goes to the right channel.</li>
+      <li>To see which of our own videos work well, so we can make better videos.</li>
     </ul>
     <p>Videos are only published after we approve them ourselves.</p>
 
@@ -46,7 +48,7 @@
     <p>Everything stays on our own computer. Access tokens are stored encrypted and are only sent to the platform they belong to. We do not use a server or database in the cloud for this data.</p>
 
     <h2>Sharing</h2>
-    <p>We do not sell, rent or share this data with anyone. It is only exchanged with the platform it comes from (for example YouTube or TikTok) to make the upload work.</p>
+    <p>We do not sell, rent or share this data with anyone. It is only exchanged with the platform it comes from (YouTube, TikTok, Facebook or Instagram) to upload our videos and read their statistics.</p>
 
     <h2>YouTube and Google</h2>
     <p>The app uses YouTube API Services. By connecting a YouTube account you also agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can remove the app's access at any time in your <a href="https://myaccount.google.com/permissions">Google security settings</a>.</p>
@@ -54,8 +56,11 @@
     <h2>TikTok</h2>
     <p>TikTok's handling of data is covered by the <a href="https://www.tiktok.com/legal/page/global/privacy-policy/en">TikTok Privacy Policy</a>. You can remove the app's access at any time in TikTok under Settings and privacy › Security › Apps and services.</p>
 
+    <h2>Facebook and Instagram</h2>
+    <p>Meta's handling of data is covered by the <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>. You can remove the app's access at any time in Facebook under Settings and privacy › Settings › Business integrations, or in Instagram under Settings › Website permissions › Apps and websites.</p>
+
     <h2>Keeping and deleting data</h2>
-    <p>We keep the data only while the account is connected. When an account is disconnected, its tokens and profile information are deleted from the app and the access is revoked with the platform.</p>
+    <p>We keep tokens and profile information only while the account is connected. When an account is disconnected, they are deleted from the app and the access is revoked with the platform. Statistics about our own videos are kept for as long as we need them to compare videos, and are deleted when the video is removed from the app. To ask for deletion of any data, open an issue on GitHub or send a message to @inonesketch.</p>
 
     <h2>This website</h2>
     <p>This website has no accounts, forms, cookies or analytics. It is hosted on GitHub Pages and loads fonts from Google Fonts; both may log basic technical data such as your IP address, under their own privacy policies.</p>
